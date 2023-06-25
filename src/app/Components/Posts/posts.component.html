@@ -1,0 +1,11 @@
+<div class="post">
+  <a [routerLink]="['/post', posts.id]">
+    <div class=title>
+      {{posts.title | uppercase}}
+    </div>
+    <div class="text">
+      {{posts.body}}
+    </div>
+  </a>
+</div>
+

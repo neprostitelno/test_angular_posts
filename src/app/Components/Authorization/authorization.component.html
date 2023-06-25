@@ -1,0 +1,10 @@
+<div>
+  <h2>Авторизация</h2>
+  <form [formGroup]="authorisationForm" (ngSubmit)="onSubmit()" class="formOfAuth">
+    <label for="login">Логин: </label>
+    <input id='login' formControlName='login'>
+    <label for="password">Пароль: </label>
+    <input id='password' type="password" formControlName='password'>
+    <button type='submit'>Войти</button>
+  </form>
+</div>

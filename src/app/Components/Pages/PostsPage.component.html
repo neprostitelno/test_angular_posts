@@ -1,0 +1,6 @@
+<p *ngIf="loading">Loading...</p>
+
+<div>
+  <app-posts *ngFor='let post of posts; let i = index'
+             [posts]="post"></app-posts>
+</div>
