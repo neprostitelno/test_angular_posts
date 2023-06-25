@@ -1,27 +1,43 @@
-# Posts
+# Тестовое задание
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+## О проекте
 
-## Development server
+Данный проект представляет собой приложение на Angular.
+Содержащее в себе
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+-страницу авторизации;
 
-## Code scaffolding
+-страницу с таблицей постов (https://jsonplaceholder.typicode.com/posts), с этой страницы можно перейти на страницу поста по id;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-страницу поста по id (https://jsonplaceholder.typicode.com/posts/1), с этой страницы можно вернуться на страницу всех постов;
+шапку, в которой расположены кнопки авторизации/деавторизации
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Реализованные функции:
 
-## Running unit tests
+1) Авторизация
+2) Страница с таблицей постов
+3) Страница поста
+4) header
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Как запустить
 
-## Running end-to-end tests
+Для запуска приложения вам понадобится пакетный менеджер **npm**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Для установки пакетов используемых в приложении используйте команду:
 
-## Further help
+```
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Для запуска приложения используйте команду:
+
+```
+npm start
+```
+
+## Используемые технологии
+
+В данном проекте использовались следующие технологии:
+
+1. Angular 16
